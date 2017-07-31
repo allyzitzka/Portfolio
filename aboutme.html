@@ -2,6 +2,22 @@
 <html lang="en-US">
 <head>
 <style>
+  .grow {padding: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 49px;
+  width: 22%;
+  margin: 5px 1% 5px 1%;
+  float: left;
+  position: relative;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+    overflow: hidden;
+  }
+  .grow:hover {
+  height: 145px;
+}
+
   body {background-color:powderblue
   }
   h1 {color:darkblue; font-family:helvetica;
@@ -15,9 +31,11 @@
  
 <h1 style="color:darkblue;" >Ally Zitzka</h1>
   </header>
+  <div id="aboutme" class="grow" onmouseover="this.style=grow:hover">
   <article>
   <p>My name is Ally Zitzka. I was born in Redmond, Washington, on September 5, 2000. My mom's name is Susan and my dad's name is August. I moved to Mukilteo around age 5. At the same time, my parents got divorced and my dad moved to Texas. I have one older sister. Her name is Zoe. I currently have two dogs, Molly and Mohawk, and one cat, Lucky. In elementary school, I generally got very good grades. In middle school, I joined a highly-capable program. Because of this, school was much more challenging than I was used to and my grades fell slightly. With time, I learned to manage the increased work load. In high school, I attemded Kamiak High School. So far I've had very good grades, only struggling occasionally. I plan on attending University of Washington, but I haven't decided what to study yet.</p>
   </article>
+  </div>
     <br>
   <article>
 <h1>Likes:</h1>
